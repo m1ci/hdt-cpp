@@ -87,6 +87,12 @@ When getting
 
 Serd is not 0.28+, probably because of the package manager. Built it manually at https://github.com/drobilla/serd.
 
+  Or edit `/etc/apt/sources.list` and add the following repository
+  `deb http://ftp.de.debian.org/debian buster main`
+  Then update the package list `apt update` and finally install serd
+
+  - `apt install libserd-0-0`
+
 #### `./configure` cannot find Serd
 
 While running `./configure` you get a message similar to the
